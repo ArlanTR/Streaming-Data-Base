@@ -1,4 +1,3 @@
--- I) --
 use Streaming;
 
 /*Retorna o Nome e a descrição do video pesquisando pelo seu nome ou parte do nome*/

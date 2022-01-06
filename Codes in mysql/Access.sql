@@ -1,4 +1,3 @@
--- H -- 
 -- Exemplos de criação de Usuário e suas permissões de acesso-- 
 -- Criação de Usuário 1 (Jake) -- 
 CREATE USER 'jake'@'localhost' IDENTIFIED BY '111111';

@@ -1,4 +1,3 @@
--- F --
 -- Exemplos de Consultas --
 -- Recupera o nome e celular do usuarios que acessam a plataforma do tipo ‘S’
 SELECT nome, celular 
@@ -99,7 +98,7 @@ SELECT S.nome_Serie AS 'Nome da serie', S.qtd_Temporada AS 'Quantiadade Temporad
 From serie S HAVING S.qtd_Temporada > 2;
 
 -- Recupera todos os vídeos lançados após 2018
-SELECT titulo, ano FROM video V WHERE ano > ALL (SELECT ano FROM video V WHERE V.ano = 2018) GROUP BY titulo;
-
-
-
+SELECT titulo, ano 
+FROM video V 
+WHERE ano > ALL (SELECT ano FROM video V WHERE V.ano = 2018) 
+GROUP BY titulo;

@@ -1,4 +1,3 @@
--- J --
 -- Exemplos de Triggers --
 use Streaming;
 -- Triggers 1 -- 
