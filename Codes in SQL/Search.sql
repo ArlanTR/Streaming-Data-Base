@@ -2,8 +2,7 @@
 -- Recupera o nome e celular do usuarios que acessam a plataforma do tipo ‘S’
 SELECT nome, celular 
 FROM Usuario U JOIN Acessa A ON U.email = A.email JOIN Plataforma P ON A.id_Plataforma = P.id_Plataforma 
-WHERE tipo_Plataforma = 'S' 
-GROUP BY nome;
+WHERE tipo_Plataforma = 'S';
 
 -- Recupera os dados de cada vídeo e de seus episódios, se o vídeo não tiver episódio, indique com valores null:
 SELECT * 
