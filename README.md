@@ -1,0 +1,2 @@
+# Streaming Data Base
+ Tarefa do curso de banco de dados Universidade Federal de Lavras
