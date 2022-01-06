@@ -1,4 +1,3 @@
--- C --
 use Streaming;
 -- Exemplos de Inserção --
 -- Inserindo Usuários --

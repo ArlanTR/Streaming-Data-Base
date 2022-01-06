@@ -1,4 +1,3 @@
--- G --
 -- Exemplo de criação de View --
 -- Mostra todos os pagamentos das mensalidades realizadas pelos usuário --
 CREATE VIEW Pagamento AS
