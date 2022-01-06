@@ -1,5 +1,5 @@
 -- C --
-Use Streaming 
+use Streaming 
 -- Exemplos de Inserção --
 -- Inserindo Usuários --
 INSERT INTO usuario (email, cpf, celular, nome, senha, cartao) VALUES ('anaclara@gmail.com', '69394746825', '91981192698', 'Ana Clara', '123456', '5138207909504917');
