@@ -19,7 +19,7 @@ USE `Streaming` ;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `Streaming`.`Usuario` (
   `email` VARCHAR(40) NOT NULL,
-  `cpf` CHAR(11) NOT NULL,
+  `cpf` bigint(11) UNSIGNED ZEROFILL NOT NULL DEFAULT '00000000000',
   `celular` CHAR(11) NOT NULL,
   `nome` VARCHAR(80) NOT NULL,
   `senha` VARCHAR(30) NOT NULL,
