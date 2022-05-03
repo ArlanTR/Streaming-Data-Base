@@ -4,6 +4,7 @@ Trabalho prático da disciplina de Introdução a Sistemas de Banco de Dados do 
 
 <h2>&#128101 Desenvolvedores </h2>
    <li><a href="https://github.com/arlanTR" target="_blank">Arlan da Silva Trindade</a></li>
+   <li><a href="https://github.com/GabrielNathan12" target="_blank">Gabriel Nathan</a></li> 
    <li><a href="https://github.com/larisnarciso" target="_blank">Larissa Narciso Oliveira</a></li>
 
 <h2>&#128421 Tecnologias Utilizadas</h2>
